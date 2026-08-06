@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "judul": "SMP Negeri 15 Banjarbaru Raih Prestasi di Ajang Sains",
+    "ringkasan": "Siswa SMP Negeri 15 Banjarbaru kembali menunjukkan semangat belajar melalui kompetisi sains tingkat kota.",
+    "kategori": "prestasi",
+    "tanggal": "12 Juni 2026"
+  },
+  {
+    "id": 2,
+    "judul": "Masa Pengenalan Lingkungan Sekolah Berlangsung Edukatif",
+    "ringkasan": "Kegiatan pengenalan sekolah membangun karakter, kedisiplinan, dan semangat kebersamaan peserta didik baru.",
+    "kategori": "kegiatan",
+    "tanggal": "8 Juni 2026"
+  },
+  {
+    "id": 3,
+    "judul": "Gerakan Literasi Sekolah Hadirkan Kelas Inspiratif",
+    "ringkasan": "Warga sekolah memperkuat budaya membaca melalui kelas literasi dan berbagi pengalaman yang menyenangkan.",
+    "kategori": "akademik",
+    "tanggal": "28 Mei 2026"
+  },
+  {
+    "id": 4,
+    "judul": "Tim Seni dan Olahraga Siap Mengharumkan Nama Sekolah",
+    "ringkasan": "Ekstrakurikuler menjadi ruang bagi siswa untuk bertumbuh, berlatih, dan mengembangkan bakat terbaiknya.",
+    "kategori": "kegiatan",
+    "tanggal": "15 Mei 2026"
+  }
+]

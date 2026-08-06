@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "judul": "Informasi Penerimaan Murid Baru",
+    "isi": "Informasi jadwal dan persyaratan penerimaan murid baru akan diumumkan melalui kanal resmi sekolah.",
+    "tanggal": "1 Juni 2026",
+    "status": "aktif"
+  },
+  {
+    "id": 2,
+    "judul": "Agenda Penilaian Akhir Semester",
+    "isi": "Peserta didik dan orang tua dapat memantau jadwal penilaian melalui wali kelas masing-masing.",
+    "tanggal": "20 Mei 2026",
+    "status": "aktif"
+  }
+]

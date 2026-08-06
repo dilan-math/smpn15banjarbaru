@@ -1,0 +1,337 @@
+# REFACTOR PROJECT - SMP NEGERI 15 BANJARBARU
+
+## Sebelum mulai bekerja
+
+Jangan langsung mengubah file.
+
+Pelajari seluruh struktur project terlebih dahulu.
+
+Scan seluruh folder, identifikasi semua file HTML, CSS, JavaScript, gambar, icon, font, asset, dan hubungan antar file.
+
+Setelah seluruh project dipahami, baru lakukan refactoring.
+
+Jangan membuat project baru.
+
+Jangan mengganti template.
+
+Gunakan project yang sudah ada sebagai dasar.
+
+---
+
+# TUJUAN
+
+Mengubah website yang sudah ada menjadi website resmi **SMP Negeri 15 Banjarbaru**.
+
+Website akan di-host menggunakan **GitHub Pages**.
+
+Tetap menggunakan:
+
+* HTML
+* CSS
+* JavaScript
+
+Tidak menggunakan:
+
+* PHP
+* WordPress
+* React
+* Vue
+* Next
+* Laravel
+* Backend
+* Database Server
+
+---
+
+# DESIGN LOCK (SANGAT PENTING)
+
+Website yang sudah ada merupakan desain final.
+
+Anggap desain tersebut sudah disetujui.
+
+Lakukan **REFactoring**, bukan **REDESIGN**.
+
+Jangan mengubah identitas visual website.
+
+---
+
+# DILARANG
+
+Jangan:
+
+* membuat website baru
+* mengganti template
+* mengubah layout
+* mengubah konsep UI
+* mengubah UX
+* mengubah warna
+* mengubah gradient
+* mengubah typography
+* mengubah ukuran font
+* mengubah spacing
+* mengubah padding
+* mengubah margin
+* mengubah posisi section
+* mengubah urutan section
+* mengubah jumlah section
+* mengubah navbar
+* mengubah footer
+* mengubah hero
+* mengubah card
+* mengubah animasi
+* mengubah hover effect
+* mengubah transition
+* mengubah responsive layout
+* menghapus section
+* menambah section baru
+* membuat komponen baru yang tidak ada pada website asli
+
+Jika suatu section tidak ada pada website asli, maka jangan membuat section tersebut.
+
+Website hasil akhir harus tetap terlihat sama dengan website asli.
+
+---
+
+# YANG HARUS DIUBAH
+
+Ubah seluruh branding menjadi:
+
+SMP Negeri 15 Banjarbaru
+
+Seluruh identitas lama harus diganti, termasuk:
+
+* nama sekolah
+* logo
+* favicon
+* title
+* meta description
+* keywords
+* Open Graph
+* copyright
+* footer
+* alamat
+* email
+* nomor telepon
+* media sosial
+* gambar yang berkaitan dengan sekolah lama
+* berita
+* prestasi
+* pengumuman
+* profil sekolah
+* informasi sekolah
+* PPDB
+
+Gunakan contoh data yang relevan dengan sekolah negeri di Indonesia jika data asli belum tersedia.
+
+---
+
+# MENU
+
+Jangan mengubah struktur menu.
+
+Pertahankan menu yang sudah ada.
+
+Jika ada nama menu yang harus disesuaikan dengan SMP Negeri 15 Banjarbaru, ubah tanpa mengubah jumlah maupun posisi menu.
+
+---
+
+# HALAMAN
+
+Pertahankan seluruh halaman yang sudah ada.
+
+Jangan membuat halaman baru kecuali memang dibutuhkan agar link yang sudah ada tetap berfungsi.
+
+---
+
+# CSS
+
+Pertahankan tampilan.
+
+Yang boleh dilakukan:
+
+* merapikan CSS
+* menghapus CSS yang tidak digunakan
+* memperbaiki bug
+* meningkatkan performa
+
+Tanpa mengubah tampilan visual.
+
+---
+
+# JAVASCRIPT
+
+Pertahankan seluruh fungsi JavaScript.
+
+Yang boleh dilakukan:
+
+* memperbaiki bug
+* menghapus kode mati
+* meningkatkan performa
+* merapikan kode
+
+Tanpa mengubah perilaku website.
+
+---
+
+# GAMBAR
+
+Pertahankan seluruh ukuran gambar dan layout.
+
+Ganti hanya gambar yang berkaitan dengan identitas sekolah.
+
+Jika gambar asli tidak tersedia, gunakan placeholder berkualitas tinggi dengan tema sekolah Indonesia.
+
+---
+
+# CMS
+
+Buat folder baru:
+
+cms/
+
+CMS dibuat menggunakan:
+
+HTML
+
+CSS
+
+JavaScript
+
+JSON
+
+Tanpa backend.
+
+Tanpa login.
+
+Tanpa database.
+
+CMS digunakan untuk mengelola:
+
+* Berita
+* Galeri
+* Pengumuman
+
+CMS tidak boleh mengubah tampilan website publik.
+
+---
+
+# STRUKTUR CMS
+
+cms/
+
+index.html
+
+berita.html
+
+galeri.html
+
+pengumuman.html
+
+pengaturan.html
+
+assets/
+
+css/
+
+js/
+
+---
+
+# PENYIMPANAN DATA
+
+Buat folder:
+
+data/
+
+berita.json
+
+galeri.json
+
+pengumuman.json
+
+Website publik membaca data dari file JSON.
+
+Jangan meng-hardcode data berita pada HTML.
+
+---
+
+# GITHUB PAGES
+
+Pastikan seluruh website kompatibel dengan GitHub Pages.
+
+Gunakan path relatif.
+
+Tidak boleh ada:
+
+* broken link
+* asset hilang
+* JavaScript error
+* console error
+
+---
+
+# OPTIMASI
+
+Perbaiki bila diperlukan:
+
+* semantic HTML
+* accessibility
+* lazy loading
+* performa
+* SEO
+* responsive bug
+
+Tanpa mengubah desain.
+
+---
+
+# CARA BEKERJA
+
+Jangan mengubah seluruh project sekaligus.
+
+Kerjakan bertahap.
+
+Urutan pekerjaan:
+
+1. Pelajari seluruh project.
+2. Buat daftar file dan fungsi masing-masing.
+3. Refactor index.html.
+4. Refactor halaman lainnya satu per satu.
+5. Rapikan CSS.
+6. Rapikan JavaScript.
+7. Ganti seluruh branding.
+8. Bangun CMS.
+9. Hubungkan website dengan file JSON.
+10. Lakukan pengujian seluruh website.
+11. Perbaiki seluruh error.
+12. Pastikan website siap dipublikasikan.
+
+---
+
+# SEBELUM MENYELESAIKAN PEKERJAAN
+
+Pastikan:
+
+✓ Tampilan sama seperti website asli.
+
+✓ Tema warna tetap sama.
+
+✓ Layout tetap sama.
+
+✓ Section tetap sama.
+
+✓ Animasi tetap sama.
+
+✓ Responsive tetap sama.
+
+✓ Branding berubah menjadi SMP Negeri 15 Banjarbaru.
+
+✓ Semua halaman berfungsi.
+
+✓ Semua aset termuat.
+
+✓ Tidak ada error.
+
+✓ Siap di-upload ke GitHub Pages.
+
+Jika ragu terhadap suatu perubahan, pilih untuk mempertahankan desain dan struktur website asli.
